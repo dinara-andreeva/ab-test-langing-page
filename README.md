@@ -71,4 +71,5 @@
 
 ## Как запустить
 - `pip install -r requirements.txt`
-- Открыть `notebooks/analysis.ipynb` и выполнить все ячейки. База `ab_test.duckdb` создаётся заново.
+- `jupyter lab notebooks/analysis.ipynb`
+- Выполнить все ячейки (Run All). База `ab_test.duckdb` создаётся заново при каждом запуске.
